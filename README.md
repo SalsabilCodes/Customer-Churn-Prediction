@@ -66,19 +66,7 @@ Two machine learning models were trained:
 
 ---
 
-## 6️⃣ Model Evaluation
-| Metric | Value |
-|--------|-------|
-| Accuracy | 0.xx |
-| ROC-AUC Score | 0.xx |
-| Confusion Matrix | Displayed in Notebook |
-| Classification Report | Displayed in Notebook |
-
-> Metrics are evaluated on the **test set** after applying SMOTE on training data.
-
----
-
-## 7️⃣ Making Predictions
+## 6️⃣ Making Predictions
 - Input data is provided as a dictionary (from a form in Flask or directly in Python).  
 - Data is encoded using the saved encoders, scaled with the saved scaler, and passed to the trained model.  
 - Output:
